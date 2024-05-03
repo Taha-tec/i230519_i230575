@@ -9,11 +9,6 @@ using namespace sf;
 using namespace std;
 
 
-struct coordinats {
-	int x;
-	int y;
-};
-
 
 
 //Drawing the background
