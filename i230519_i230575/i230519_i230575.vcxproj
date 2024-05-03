@@ -139,7 +139,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Home.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Mushroom.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SeedPacket.cpp" />
+    <ClCompile Include="MouseInteraction.cpp" />
+    <ClCompile Include="PeaShooter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PeaShooter.h" />
+    <ClInclude Include="MouseInteraction.h" />
+    <ClInclude Include="SeedPacket.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Interval.h" />
+    <ClInclude Include="Mushroom.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Home.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
