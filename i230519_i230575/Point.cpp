@@ -27,3 +27,6 @@ int Point::getY()
 {
     return y;
 }
+void Point::fun()
+{
+}

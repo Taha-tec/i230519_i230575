@@ -13,6 +13,7 @@ public:
 	void setY(int y);
 	int getX();
 	int getY();
+	void fun();
 
 };
 
